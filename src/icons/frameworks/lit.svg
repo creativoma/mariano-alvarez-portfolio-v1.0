@@ -1,10 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 190 190">
-  <path
-    fill="currentColor"
-    d="M95 143V79l33-33v65l-33 32Zm-65 0 32 33v-65H46"
-  />
-  <path
-    fill="currentColor"
-    d="M62 111V46l33-32v65l-33 32Zm66 65v-65l32-32v64l-32 33Zm-98-33V79l32 32"
-  />
-</svg>
+<svg id="b08597ba-212d-4de5-a849-f5d74b091beb" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200"><path d="M76,112,88,76l54,54-18,30-24-24H88" style="fill:#00e8ff"/><path d="M100,136V88l24-24v48M52,136l24,24,12-24L76,112H64" style="fill:#283198"/><path d="M76,112V64l24-24V88m24,72V112l24-24v48m-96,0V88l24,24" style="fill:#324fff"/><path d="M76,160V112l24,24" style="fill:aqua"/></svg>

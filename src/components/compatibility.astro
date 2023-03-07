@@ -5,85 +5,100 @@ import type { CompatibilityItem } from "~/types";
 
 const frameworks: Array<CompatibilityItem> = [
   {
+    title: "HTML",
+    icon: "frameworks/html5",
+    url: "https://github.com/creativoma",
+  },
+  {
+    title: "CSS",
+    icon: "frameworks/css3",
+    url: "https://github.com/creativoma",
+  },
+  {
+    title: "Sass",
+    icon: "frameworks/sass",
+    url: "https://github.com/creativoma",
+  },
+  {
+    title: "JavaScript",
+    icon: "frameworks/javascript",
+    url: "https://github.com/creativoma",
+  },
+  {
+    title: "JSON",
+    icon: "frameworks/JSON",
+    url: "https://github.com/creativoma",
+  },
+  {
+    title: "NodeJS",
+    icon: "frameworks/nodejs",
+    url: "https://github.com/creativoma",
+  },
+  {
     title: "React",
-    icon: "frameworks/react",
-    url: "https://reactjs.org/",
+    icon: "frameworks/reactjs",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Preact",
-    icon: "frameworks/preact",
-    url: "https://preactjs.com/",
+    title: "Tailwind",
+    icon: "frameworks/tailwind",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Svelte",
-    icon: "frameworks/svelte",
-    url: "https://svelte.dev/",
+    title: "Vite",
+    icon: "frameworks/vitejs",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Vue",
-    icon: "frameworks/vue",
-    url: "https://vuejs.org/",
-  },
-  {
-    title: "Solid",
-    icon: "frameworks/solid",
-    url: "https://www.solidjs.com/",
-  },
-  {
-    title: "Lit",
-    icon: "frameworks/lit",
-    url: "https://lit.dev/",
-  },
+    title: "PHP",
+    icon: "frameworks/PHP",
+    url: "https://github.com/creativoma",
+  }
 ];
 
 const platforms: Array<CompatibilityItem> = [
   {
-    title: "Netlify",
-    icon: "platforms/netlify",
-    url: "https://www.netlify.com/",
+    title: "Git",
+    icon: "frameworks/git",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Vercel",
-    icon: "platforms/vercel",
-    url: "https://vercel.com/",
+    title: "NPM",
+    icon: "frameworks/npm",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Cloudflare",
-    icon: "fa-brands:cloudflare",
-    url: "https://pages.cloudflare.com/",
+    title: "Bootstrap",
+    icon: "frameworks/bootstrap",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "Render",
-    icon: "platforms/render",
-    url: "https://render.com/",
+    title: "Figma",
+    icon: "frameworks/figma",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "GitHub",
-    icon: "fa-brands:github",
-    url: "https://pages.github.com/",
+    title: "Wordpress",
+    icon: "frameworks/wordpress",
+    url: "https://github.com/creativoma",
   },
   {
-    title: "GitLab",
-    icon: "fa-brands:gitlab",
-    url: "https://docs.gitlab.com/ee/user/project/pages/",
-  },
+    title: "MySQL",
+    icon: "frameworks/mySQL",
+    url: "https://github.com/creativoma",
+  }
 ];
 ---
 
-<ContentSection title="Compatibility" id="compatibility">
-  <Fragment slot="lead">
-    Astro <span class="text-primary">plays nice</span>. Bring your own UI{" "}
-    <span class="text-primary">framework</span>
-    and deploy to your favorite <span class="text-primary">platform</span>.
-  </Fragment>
+<ContentSection title="Lenguajes, herramientas y utilidades" id="compatibility">
   <CompatibilityList
     items={frameworks}
-    title="Frameworks"
+    title="Stack Actual"
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
   <CompatibilityList
     items={platforms}
-    title="Platforms"
+    title="Otras Herramientas"
     url="https://docs.astro.build/guides/deploy/"
   />
 </ContentSection>
