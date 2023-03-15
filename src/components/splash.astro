@@ -1,5 +1,4 @@
 ---
-import HeroImage from "~/components/hero-image.astro";
 import Starfield from "~/components/starfield.astro";
 
 const widths = [450, 800];
@@ -8,14 +7,12 @@ const sizes = "(min-width: 640px) 42vw, 67vw";
 
 <section class="relative h-full bg-black">
   <Starfield />
-  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40">
-    <HeroImage />
-  </div>
+  <div id="splash-bg-fallback" class="absolute inset-0 hidden opacity-40"></div>
   <div class="relative grid h-full place-items-center sm:grid-cols-1">
-    <h2
-      class="flex flex-col gap-2 center sm:gap-4 sm:self-auto sm:center">
+    <h2 class="center sm:center flex flex-col gap-2 sm:gap-4 sm:self-auto">
       <div
-        class="gradient-text text-center font-extrabold tracking-tighter text-8xl sm:text-9xl">
+        class="gradient-text text-center font-extrabold tracking-tighter text-8xl sm:text-9xl"
+      >
         Mariano Álvarez
         <br /> Frontend
         <br /> Developer

@@ -1,4 +1,4 @@
-export interface CompatibilityItem {
+export interface StackItem {
   icon: string;
   title: string;
   url: string;
@@ -6,8 +6,9 @@ export interface CompatibilityItem {
 
 export interface FeatureItem {
   description: string;
-  icon: string;
+  agency: string;
   title: string;
+  time: string;
 }
 
 export interface FooterLink {

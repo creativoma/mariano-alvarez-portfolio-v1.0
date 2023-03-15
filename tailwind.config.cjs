@@ -27,5 +27,9 @@ module.exports = {
   corePlugins: {
     fontSize: false,
   },
-  plugins: [require("tailwindcss-fluid-type")],
+  plugins: [
+    require("tailwindcss-fluid-type"),
+    require("rippleui"),
+    require("daisyui"),
+  ],
 };

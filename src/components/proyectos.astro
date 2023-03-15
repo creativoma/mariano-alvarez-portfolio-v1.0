@@ -1,0 +1,35 @@
+---
+import ContentSection from "~/components/content-section.astro";
+import Card from "~/components/card.astro";
+---
+
+<ContentSection title="Proyectos" id="proyectos">
+  <Fragment slot="lead">
+    <span
+      >Me complace compartir algunos de los proyectos que hemos llevado a cabo,
+      los cuales incluyen tanto proyectos personales como aquellos realizados
+      para clientes.</span
+    >
+    <br />
+    <span
+      >Cada uno de ellos ha sido una oportunidad para demostrar nuestro
+      compromiso con la excelencia y la innovación, así como para fortalecer
+      nuestras relaciones con nuestros clientes y colaboradores.</span
+    >
+  </Fragment>
+  <div class="max-w-12xl space-y-2">
+    <div class="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
+      <!-- {sites.map((site) => <ShowcaseCard site={site} />)} -->
+      <Card
+        title="Copistería Online"
+        photo="https://media.licdn.com/dms/image/C4D2DAQHGEbc5vtodPQ/profile-treasury-image-shrink_800_800/0/1677350850250?e=1679508000&v=beta&t=S0SQD9r_FFwjpfRjy1spPhd2m-XL7pHR3ToJv48Ceno"
+        desc="Sitio web creado con HTML, CSS, Javascript Vanilla, PHP, MySQL."
+      />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+    </div>
+  </div>
+</ContentSection>

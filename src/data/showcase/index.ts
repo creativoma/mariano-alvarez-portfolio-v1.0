@@ -1,4 +1,4 @@
-// adapted from https://github.com/withastro/astro.build/blob/112bdc723b3ba305997c95d7ce02304624d0d3ce/src/data/showcase/index.ts
+// adapted from https://github.com/withastro/astro.build/blob/112bdc723b3ba305997c95d7ce02304624d0d3ce/src/data/proyectos/index.ts
 
 import type { ShowcaseSite } from "~/types";
 import sitesData from "./sites.json";

@@ -8,7 +8,7 @@ const navItems: Array<NavItem> = [
   { title: "Experiencia", url: "#experiencia" },
   { title: "Proyectos", url: "#proyectos" },
   { title: "Contacto", url: "#contacto" },
-  { title: "Resumen", url: "#resumen"}
+  { title: "Resumen", url: "#resumen" },
 ];
 ---
 
@@ -16,9 +16,13 @@ const navItems: Array<NavItem> = [
   id="page-header"
   class="absolute bottom-0 z-20 flex w-full items-center justify-between border-b border-transparent px-8 py-4 text-white"
 >
-  <a class="flex items-center gap-3 hover:!text-default" href="#">
+  <a
+    class="flex items-center gap-3 hover:!text-default"
+    href="https://astro.build/"
+    target="_blank"
+  >
     <h1 class="sr-only">Mariano Álvarez</h1>
-    Build with 
+    Builded with
     <Icon name="logomark" class="h-10" />
     <Icon name="wordmark" class="hidden h-4 sm:block" />
   </a>

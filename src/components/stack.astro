@@ -1,9 +1,9 @@
 ---
-import CompatibilityList from "~/components/compatibility-list.astro";
+import StackIList from "~/components/stack-list.astro";
 import ContentSection from "~/components/content-section.astro";
-import type { CompatibilityItem } from "~/types";
+import type { StackItem } from "~/types";
 
-const frameworks: Array<CompatibilityItem> = [
+const frameworks: Array<StackItem> = [
   {
     title: "HTML",
     icon: "frameworks/html5",
@@ -53,10 +53,10 @@ const frameworks: Array<CompatibilityItem> = [
     title: "PHP",
     icon: "frameworks/PHP",
     url: "https://github.com/creativoma",
-  }
+  },
 ];
 
-const platforms: Array<CompatibilityItem> = [
+const platforms: Array<StackItem> = [
   {
     title: "Git",
     icon: "frameworks/git",
@@ -86,17 +86,17 @@ const platforms: Array<CompatibilityItem> = [
     title: "MySQL",
     icon: "frameworks/mySQL",
     url: "https://github.com/creativoma",
-  }
+  },
 ];
 ---
 
-<ContentSection title="Lenguajes, herramientas y utilidades" id="compatibility">
-  <CompatibilityList
+<ContentSection title="Lenguajes, herramientas y utilidades" id="stack">
+  <StackIList
     items={frameworks}
     title="Stack Actual"
     url="https://docs.astro.build/core-concepts/framework-components/"
   />
-  <CompatibilityList
+  <StackIList
     items={platforms}
     title="Otras Herramientas"
     url="https://docs.astro.build/guides/deploy/"
