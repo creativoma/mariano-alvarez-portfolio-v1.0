@@ -1,6 +1,6 @@
 # Astro Landing Page
 
-Mi portfolio v1 personal creado con [Astro.build](https://astro.build) y [Tailwind CSS](https://tailwindcss.com).
+Este es mi portfolio v1 personal, diseñado y desarrollado con [Astro.build](https://astro.build) y [Tailwind CSS](https://tailwindcss.com). Astro.build me permitió crear una experiencia de usuario fluida y optimizada, mientras que Tailwind CSS me proporcionó un conjunto de herramientas para estilizar rápidamente mi sitio web. El resultado es una página web moderna y elegante que refleja mi trabajo y habilidades. ¡Gracias por visitar!
 
 ## Screenshots
 
