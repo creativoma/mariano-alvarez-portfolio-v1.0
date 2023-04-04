@@ -11,6 +11,8 @@ const designIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tab
     src={photo ? photo : "./images/placeholder.jpg"}
     alt={title}
     title={title}
+    width="380px"
+    height="auto"
   />
   <div class="card-body p-6">
     <h2 class="card-header">{title ? title : "Card Title"}</h2>
@@ -22,6 +24,7 @@ const designIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tab
             href={url ? url : "#"}
             target="_blank"
             style={{ maxWidth: "fit-content" }}
+            aria-label="URL"
           >
             {urlIcon ? <Fragment set:html={urlIcon} /> : ""}
           </a>
@@ -35,6 +38,7 @@ const designIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tab
             href={repo ? repo : "#"}
             target="_blank"
             style={{ maxWidth: "fit-content" }}
+            aria-label="Github"
           >
             {githubIcon ? <Fragment set:html={githubIcon} /> : ""}
           </a>
@@ -48,6 +52,7 @@ const designIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tab
             href={design ? design : "#"}
             target="_blank"
             style={{ maxWidth: "fit-content" }}
+            aria-label="Figma"
           >
             {designIcon ? <Fragment set:html={designIcon} /> : ""}
           </a>

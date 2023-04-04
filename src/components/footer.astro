@@ -19,7 +19,7 @@ const twitterIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-ta
       {
         navItems.map(({ title, url }) => (
           <li>
-            <a class="text-sm" href={url}>
+            <a class="text-sm" href={url} aria-label={'Ir a ' + title}>
               {title}
             </a>
           </li>
@@ -29,13 +29,13 @@ const twitterIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-ta
   </nav>
   <div>
     <div class="flex flex-wrap items-center justify-center gap-6">
-      <a href="https://github.com/creativoma/" target="_blank"
+      <a href="https://github.com/creativoma/" target="_blank" aria-label="Github"
         >{githubIcon ? <Fragment set:html={githubIcon} /> : ""}</a
       >
-      <a href="https://twitter.com/dev_creativoma" target="_blank"
+      <a href="https://twitter.com/dev_creativoma" target="_blank" aria-label="Twitter"
         >{githubIcon ? <Fragment set:html={twitterIcon} /> : ""}</a
       >
-      <a href="https://www.linkedin.com/in/ma-marianoalvarez/" target="_blank"
+      <a href="https://www.linkedin.com/in/ma-marianoalvarez/" target="_blank" aria-label="Linkedin"
         >{githubIcon ? <Fragment set:html={linkedinIcon} /> : ""}</a
       >
       <p class="text-center text-sm">
