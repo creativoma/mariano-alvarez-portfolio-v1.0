@@ -26,10 +26,10 @@
     "title": "Porfolio personal v1",
     "desc": "Landing page desarrollada con Astro, Tailwind y Javascript.",
     "photo": "./images/portfolio.jpg",
-    "url": "",
-    "repo": "",
+    "url": "https://landing-with-astro.vercel.app/",
+    "repo": "https://github.com/creativoma/landing-with-astro",
     "design": "",
-    "inProgress": true,
+    "inProgress": false,
     "active": true
   },
   {
