@@ -10,13 +10,18 @@ import Splash from "~/components/splash.astro";
 import "~/styles/index.css";
 
 const { generator, site } = Astro;
-const image = new URL("social.jpg", site);
+const image = new URL("social.png", site);
 const description =
   "Desde Málaga para todo el mundo. Intrépido, entusiasta y emprendedor. Planificador y detallista que busca aportar soluciones a través de “la web”.";
 ---
 
 <!DOCTYPE html>
-<html lang="en" class="h-full motion-safe:scroll-smooth" data-theme="dark">
+<html
+  lang="es"
+  class="h-full motion-safe:scroll-smooth"
+  class="dark"
+  data-theme="light"
+>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />

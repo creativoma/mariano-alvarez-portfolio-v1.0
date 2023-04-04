@@ -1,9 +1,8 @@
 ---
 import { Icon } from "astro-icon";
 import ThemeSwitcher from "~/components/theme-switcher.astro";
-import type { NavItem } from "~/types";
 
-const navItems: Array<NavItem> = [
+const navItems = [
   { title: "Quién soy", url: "#quien-soy" },
   { title: "Experiencia", url: "#experiencia" },
   { title: "Proyectos", url: "#proyectos" },
@@ -136,7 +135,7 @@ const navItems: Array<NavItem> = [
 
 <style>
   .fixed-header {
-    @apply fixed top-0 bottom-auto;
+    @apply fixed bottom-auto top-0;
     @apply border-default bg-default text-default;
   }
   .modal.is-open {

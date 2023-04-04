@@ -4,7 +4,7 @@
 
 > An Astro + Tailwind CSS example/template for landing pages.
 
-![Screenshots of Astro Landing Page](screenshots.jpg)
+![Screenshots of Astro Landing Page](screenshots.png)
 
 ## experiencia
 

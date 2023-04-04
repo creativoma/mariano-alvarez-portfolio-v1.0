@@ -1,26 +1,25 @@
 ---
 import ContentSection from "~/components/content-section.astro";
-import type { FeatureItem } from "~/types";
 
-const experiencia: Array<FeatureItem> = [
+const experiencia = [
   {
     title: "Full Stack Developer",
     description:
-      "En la agencia, he construido sitios web y aplicaciones usando tecnologías como HTML5, CSS, Sass, JavaScript, React.js, PHP, SQL, MySQL, PhpMyAdmin, Vite y Git.",
+      "En la agencia, he construido sitios web y aplicaciones usando tecnologías como HTML5, CSS, Sass, JavaScript, React.js, PHP, SQL, MySQL, PhpMyAdmin, Vite, Astro, Nextjs, Git, etc.",
     agency: "El Puente Publicidad",
-    time: "2022 - 2023",
+    time: "Junio 2022 - Marzo 2023",
   },
   {
     title: "Frontend Developer",
     description:
-      "Me dedico al desarrollo y diseño de sitios web y aplicaciones usando tecnologías como JavaScript, PHP y diseño web adaptable, y herramientas como WordPress, Divi y Adobe Illustrator.",
+      "Me dedico al desarrollo y diseño de sitios web y aplicaciones usando tecnologías como JavaScript, PHP, SQL y herramientas tales como WordPress, Divi y Adobe Illustrator.",
     agency: "Creativoma",
     time: "2019 - Presente",
   },
   {
     title: "Frontend Developer",
     description:
-      "Mi trabajo se enfoca en el desarrollo y diseño de sitios web y aplicaciones, utilizando tecnologías como JavaScript, PHP y diseño web adaptable. Para esto, empleo herramientas como WordPress, Divi y Adobe Illustrator.",
+      "Mi trabajo se enfoca en el desarrollo y diseño de sitios web y aplicaciones, utilizando tecnologías como JavaScript, PHP, SQL, etc. Empleo herramientas como WordPress, Divi, Elementor.",
     agency: "Cronopios Comunicación",
     time: "2019 - Presente",
   },
@@ -36,15 +35,13 @@ const experiencia: Array<FeatureItem> = [
       profesionalmente.</span
     >
   </Fragment>
-  <ul class="grid max-w-6xl grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+  <ul class="grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
     {
       experiencia.map(({ title, description, agency, time }) => (
         <li class="flex flex-col items-center justify-center gap-2 border border-default bg-offset p-6">
           <p class="text-center font-extrabold text-xl">{title}</p>
           <p class="text-l text-center font-bold text-blue-500">{agency}</p>
-          <p class="text-center font-bold text-offset text-black text-xs">
-            {time}
-          </p>
+          <p class="text-center font-bold text-offset text-xs">{time}</p>
           <p class="text-center text-offset text-sm">{description}</p>
         </li>
       ))

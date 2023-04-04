@@ -1,96 +1,107 @@
 ---
 import StackIList from "~/components/stack-list.astro";
 import ContentSection from "~/components/content-section.astro";
-import type { StackItem } from "~/types";
 
-const frameworks: Array<StackItem> = [
+const frameworks = [
   {
     title: "HTML",
     icon: "frameworks/html5",
-    url: "https://github.com/creativoma",
+    url: "https://developer.mozilla.org/es/docs/Web/HTML",
   },
   {
     title: "CSS",
     icon: "frameworks/css3",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "Sass",
-    icon: "frameworks/sass",
-    url: "https://github.com/creativoma",
+    url: "https://developer.mozilla.org/es/docs/Web/CSS",
   },
   {
     title: "JavaScript",
     icon: "frameworks/javascript",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "JSON",
-    icon: "frameworks/JSON",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "NodeJS",
-    icon: "frameworks/nodejs",
-    url: "https://github.com/creativoma",
+    url: "https://developer.mozilla.org/es/docs/Web/JavaScript",
   },
   {
     title: "React",
     icon: "frameworks/reactjs",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "Tailwind",
-    icon: "frameworks/tailwind",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "Vite",
-    icon: "frameworks/vitejs",
-    url: "https://github.com/creativoma",
+    url: "https://react.dev/",
   },
   {
     title: "PHP",
     icon: "frameworks/PHP",
-    url: "https://github.com/creativoma",
+    url: "https://www.php.net/",
+  },
+  {
+    title: "SQL",
+    icon: "frameworks/sql",
+    url: "https://www.w3schools.com/sql/",
   },
 ];
 
-const platforms: Array<StackItem> = [
+const platforms = [
   {
     title: "Git",
     icon: "frameworks/git",
-    url: "https://github.com/creativoma",
+    url: "https://git-scm.com/",
   },
+  {
+    title: "Sass",
+    icon: "frameworks/sass",
+    url: "https://sass-lang.com/",
+  },
+  {
+    title: "NodeJS",
+    icon: "frameworks/nodejs",
+    url: "https://nodejs.org/",
+  },
+  {
+    title: "Vite",
+    icon: "frameworks/vitejs",
+    url: "https://vitejs.dev/",
+  },
+  {
+    title: "Astro",
+    icon: "frameworks/astro",
+    url: "https://astro.build/",
+  },
+
+  {
+    title: "MySQL",
+    icon: "frameworks/mySQL",
+    url: "https://www.mysql.com/",
+  },
+  {
+    title: "Tailwind",
+    icon: "frameworks/tailwind",
+    url: "https://tailwindcss.com/",
+  },
+  {
+    title: "JSON",
+    icon: "frameworks/JSON",
+    url: " https://www.json.org/",
+  },
+
   {
     title: "NPM",
     icon: "frameworks/npm",
-    url: "https://github.com/creativoma",
+    url: "https://www.npmjs.com/",
   },
   {
     title: "Bootstrap",
     icon: "frameworks/bootstrap",
-    url: "https://github.com/creativoma",
+    url: "https://getbootstrap.com/",
   },
   {
     title: "Figma",
     icon: "frameworks/figma",
-    url: "https://github.com/creativoma",
+    url: "https://www.figma.com/",
   },
   {
     title: "Wordpress",
     icon: "frameworks/wordpress",
-    url: "https://github.com/creativoma",
-  },
-  {
-    title: "MySQL",
-    icon: "frameworks/mySQL",
-    url: "https://github.com/creativoma",
+    url: "https://wordpress.org/",
   },
 ];
 ---
 
-<ContentSection title="Lenguajes, herramientas y utilidades" id="stack">
+<ContentSection title="Lenguajes y herramientas" id="stack">
   <StackIList
     items={frameworks}
     title="Stack Actual"

@@ -1,0 +1,189 @@
+[
+  {
+    "id": "developer-mariano-alvarez",
+    "title": "Porfolio personal v2",
+    "desc": "Sitio web desarrollado con ...",
+    "photo": "./images/developer.png",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "searchChatGPT",
+    "title": "Búsquedas con chatGPT",
+    "desc": "Blog desarrollado con Astro, Tailwind, Javascript y Markdown.",
+    "photo": "./images/search.png",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "LandingPage",
+    "title": "Porfolio personal v1",
+    "desc": "Landing page desarrollada con Astro, Tailwind y Javascript.",
+    "photo": "./images/portfolio.png",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "klever",
+    "title": "Copistería Online",
+    "desc": "Sitio web desarrollado con HTML, CSS, Javascript Vanilla, PHP, MySQL.",
+    "photo": "./images/klever.png",
+    "url": "https://www.thekleversociety.com/",
+    "repo": "",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "ideartemartamontoya",
+    "title": "Estudio de Arquitectura",
+    "desc": "Sitio web desarrollado con HTML, SASS, Vite, React, PHP, MySQL.",
+    "photo": "./images/idearte.png",
+    "url": "https://ideartemartamontoya.com/",
+    "repo": "",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "digimenu",
+    "title": "Menú digital - Food",
+    "desc": "Sitio web \"Mobile First\" desarrollado con HTML, CSS, SASS, Javascript Vanilla, Google Sheets API.",
+    "photo": "./images/digimenu.png",
+    "url": "https://eldigimenu-demo-food.vercel.app/",
+    "repo": "https://github.com/creativoma/eldigimenu-demo-food",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "digimenu2",
+    "title": "Menú digital - Beauty",
+    "desc": "Sitio web \"Mobile First\" desarrollado con HTML, CSS, SASS, Javascript Vanilla, Google Sheets API.",
+    "photo": "./images/digimenu-beauty.png",
+    "url": "https://eldigimenu-demo-beauty.vercel.app/",
+    "repo": "",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "emesmedia",
+    "title": "Social Media Agency",
+    "desc": "Landing web desarrollada con HTML, CSS, SASS, Javascript Vanilla.",
+    "photo": "./images/emesmedia.png",
+    "url": "https://emesmedia-landing-web.vercel.app/",
+    "repo": "https://github.com/creativoma/emesmedia-landing-web",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "conversor",
+    "title": "Conversor de unidades",
+    "desc": "Aplicación web desarrollada con HTML, CSS, Javascript Vanilla.",
+    "photo": "./images/conversor.png",
+    "url": "https://creativoma.github.io/conversor-unidades/",
+    "repo": "https://github.com/creativoma/conversor-unidades",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "guadaloffice",
+    "title": "Material de oficina",
+    "desc": "Sitio web desarrollado con HTML, SASS, Vite, React, PHP, MySQL.",
+    "photo": "./images/guada.png",
+    "url": "https://www.guadaloffice.es/",
+    "repo": "",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "espulaymar",
+    "title": "Tapicería y decoración",
+    "desc": "Sitio web desarrollado con HTML, SASS, Vite, React, PHP, MySQL.",
+    "photo": "./images/espulaymar.png",
+    "url": "https://www.espulaymar.com/",
+    "repo": "",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "store-kelly",
+    "title": "Productos y Carrito de Compra",
+    "desc": "Proyecto práctica desarrollado con HTML, CSS, Javascript y DOM Manipulation.",
+    "photo": "./images/store-kelly.png",
+    "url": "https://store-kelly.vercel.app/",
+    "repo": "https://github.com/creativoma/store-kelly",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "blackjack",
+    "title": "Simple Blackjack",
+    "desc": "Proyecto práctica desarrollado con HTML, CSS, Javascript y DOM Manipulation.",
+    "photo": "./images/blackjack.png",
+    "url": "https://simple-blackjack.vercel.app/",
+    "repo": "https://github.com/creativoma/simple-blackjack",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "card-component-react",
+    "title": "Card Component with React",
+    "desc": "Frontend Mentor Challenge - Desarrollado con HTML, CSS, Javascript y React.",
+    "photo": "./images/card-component-react.png",
+    "url": "https://card-component-react.vercel.app/",
+    "repo": "https://github.com/creativoma/card-component-react",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "stats-preview-card-component",
+    "title": "Stats preview card component",
+    "desc": "Frontend Mentor Challenge - Desarrollado con HTML, CSS, Javascript.",
+    "photo": "./images/stats-preview-card-component.png",
+    "url": "https://creativoma.github.io/stats-preview-card-component-main/",
+    "repo": "https://github.com/creativoma/stats-preview-card-component-main",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "single-price-grid-component",
+    "title": "Single price grid component",
+    "desc": "Frontend Mentor Challenge - Desarrollado con HTML, CSS, Javascript.",
+    "photo": "./images/single-price-grid-component.png",
+    "url": "https://single-price-grid-component-master-drab.vercel.app/",
+    "repo": "https://github.com/creativoma/single-price-grid-component-master",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
+    "id": "ntf-preview-card-component",
+    "title": "NFT preview card component",
+    "desc": "Frontend Mentor Challenge - Desarrollado con HTML, CSS, Javascript.",
+    "photo": "./images/ntf-preview-card-component.png",
+    "url": "https://nft-preview-card-component-main-eosin.vercel.app/",
+    "repo": "https://github.com/creativoma/nft-preview-card-component-main",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  }
+]
