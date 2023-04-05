@@ -15,10 +15,10 @@
     "title": "Búsquedas con chatGPT",
     "desc": "Blog desarrollado con Astro, Tailwind, Javascript y Markdown.",
     "photo": "./images/search.jpg",
-    "url": "",
-    "repo": "",
+    "url": "https://searches-chatgpt-paper.vercel.app/",
+    "repo": "https://github.com/creativoma/searches-chatgpt-paper",
     "design": "",
-    "inProgress": true,
+    "inProgress": false,
     "active": true
   },
   {
