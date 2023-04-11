@@ -11,6 +11,17 @@
     "active": true
   },
   {
+    "id": "pagosStripe",
+    "title": "Calculadora de pagos que recibo en Stripe",
+    "desc": "Herramienta para saber el monto aproximado que recibo si cobro en pesos argentinos en Stripe.",
+    "photo": "./images/calcu.png",
+    "url": "https://calculadora-pagos-en-stripe.vercel.app/",
+    "repo": "https://github.com/creativoma/calculadora-pagos-en-stripe",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
     "id": "searchChatGPT",
     "title": "Búsquedas con chatGPT",
     "desc": "Blog desarrollado con Astro, Tailwind, Javascript y Markdown.",
