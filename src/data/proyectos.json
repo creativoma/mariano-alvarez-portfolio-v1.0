@@ -33,6 +33,17 @@
     "active": true
   },
   {
+    "id": "passwordGenerator",
+    "title": "Generador de contraseñas",
+    "desc": "Aplicación web desarrollada con HTML, CSS, Javascript Vanilla.",
+    "photo": "./images/pass-generator.png",
+    "url": "https://generador-pass-pearl.vercel.app/",
+    "repo": "https://github.com/creativoma/generador-pass",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
     "id": "LandingPage",
     "title": "Porfolio personal v1",
     "desc": "Landing page desarrollada con Astro, Tailwind y Javascript.",
