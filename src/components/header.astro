@@ -33,7 +33,7 @@ const navItems = [
           {
             navItems.map(({ title, url }) => (
               <li>
-                <a class="text-sm" href={url}>
+                <a class="text-sm" href={url} aria-label={'Ir a ' + title}>
                   {title}
                 </a>
               </li>
@@ -73,7 +73,7 @@ const navItems = [
                 navItems.map(({ title, url }) => (
                   <li>
                     <a class="block py-4 text-center text-xl" href={url}>
-                      {title} aria-label={'Ir a ' + title}
+                      {title}
                     </a>
                   </li>
                 ))
