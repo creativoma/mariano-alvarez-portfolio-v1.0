@@ -57,7 +57,7 @@
   {
     "id": "frontend-practice-ableton",
     "title": "Challenge by Frontend Practice",
-    "desc": "Taking frontend skills to the next level by recreating real websites of real companies. The perfect kind of practice for developers of all levels and of course I'm up for the challenge.", 
+    "desc": "Taking frontend skills to the next level by recreating real websites of real companies. The perfect kind of practice for developers of all levels and of course I'm up for the challenge.",
     "photo": "./images/ableton.jpg",
     "url": "https://frontend-practice-ableton.vercel.app/",
     "repo": "https://github.com/creativoma/frontend-practice-ableton",

@@ -11,9 +11,9 @@ const designIcon = `<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tab
     src={photo ? photo : "./images/placeholder.jpg"}
     alt={title}
     title={title}
-    width="380px"
+    width="100%"
     height="auto"
-    style={{ aspectRatio: "16/9" }}
+    style={{ aspectRatio: "16/9", objectFit: "cover" }}
   />
   <div class="card-body p-6">
     <h2 class="card-header">{title ? title : "Card Title"}</h2>

@@ -8,9 +8,9 @@ Este es mi portfolio v1 personal, diseñado y desarrollado con [Astro.build](htt
 
 ## Lighthouse scores
 
-| Performance | Accessibility | Best Practices | SEO | PWAs |
-| :---------: | :-----------: | :------------: | :-: | :--: |
-| 100%        | 100%          | 100%           | 100% | S/D |
+| Performance | Accessibility | Best Practices | SEO  | PWAs |
+| :---------: | :-----------: | :------------: | :--: | :--: |
+|    100%     |     100%      |      100%      | 100% | S/D  |
 
 ![Screenshots of Lighthouse scores](lighthouse.png)
 
