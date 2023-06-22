@@ -1,10 +1,13 @@
 {
   "compilerOptions": {
-    // Alias `src` to `~`
     "baseUrl": ".",
     "paths": {
-      "~/*": ["src/*"]
+      "~/*": [
+        "src/*"
+      ]
     },
     "verbatimModuleSyntax": false,
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
   }
 }

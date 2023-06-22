@@ -1,0 +1,21 @@
+---
+import { Toaster } from "sonner";
+---
+
+<div>
+    <Toaster client:load />
+</div>
+
+<script>
+    import { toast } from "sonner";
+
+    window.addEventListener("load", () => {
+        toast("Última actualización: 26 de Junio 2023", {
+            action: {
+                label: "Gracias!",
+                onClick: () => console.log("Gracias!"),
+            },
+            duration: Infinity,
+        });
+    });
+</script>
