@@ -1,13 +1,68 @@
 [
   {
     "id": "developer-mariano-alvarez",
-    "title": "Porfolio personal v2",
-    "desc": "Sitio web desarrollado con ...",
+    "title": "Segunda versión de mi portfolio",
+    "desc": "Sitio web está siendo desarrollado con Next.js, Sass, Css Modules, Markdown, Framer Motion y Figma",
     "photo": "./images/developer.jpg",
     "url": "",
     "repo": "",
     "design": "",
     "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "febicom-uma",
+    "title": "Website FeBiCom - UMA Network",
+    "desc": "Estoy trabajando con Wordpress como Headless CMS y Next.js, Sass, Css Modules, Framer Motion para el Frontend.",
+    "photo": "./images/febicom.jpg",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "scout-granaderos",
+    "title": "Website de 'Grupo Scout Granaderos de San Martín'",
+    "desc": "Estoy trabajando con React, Tailwind, y componentes de la librería Preline. Habilitado el dark mode.",
+    "photo": "./images/granaderos.jpg",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "hogwarts-legacy",
+    "title": "Website clon de Hogwarts Legacy",
+    "desc": "Estoy trabajando en este clon del sitio web de Hogwarts Legacy desarrollado con Astro, Tailwind y Javascript.",
+    "photo": "./images/hogwarts.jpg",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "b-academics",
+    "title": "Refactorización del sitio web de B Academics",
+    "desc": "Se está desarrollando en Wordpress con Tema, plugins y funcionalidades personalizadas. Migración de contenido y rediseño completo.",
+    "photo": "./images/b-academics.jpg",
+    "url": "",
+    "repo": "",
+    "design": "",
+    "inProgress": true,
+    "active": true
+  },
+  {
+    "id": "frontend-practice-ableton",
+    "title": "Challenge by Frontend Practice",
+    "desc": "Taking frontend skills to the next level by recreating real websites of real companies. The perfect kind of practice for developers of all levels and of course I'm up for the challenge.", 
+    "photo": "./images/ableton.jpg",
+    "url": "https://frontend-practice-ableton.vercel.app/",
+    "repo": "https://github.com/creativoma/frontend-practice-ableton",
+    "design": "",
+    "inProgress": false,
     "active": true
   },
   {
