@@ -16,7 +16,7 @@
     "clean": "rimraf dist .astro node_modules"
   },
   "devDependencies": {
-    "@astrojs/image": "^0.12.1",
+    "@astrojs/image": "^0.13.1",
     "@astrojs/tailwind": "^3.0.0-beta.1",
     "@types/micromodal": "^0.3.3",
     "astro": "^2.7.0",
