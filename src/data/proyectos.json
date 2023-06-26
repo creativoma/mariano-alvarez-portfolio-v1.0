@@ -55,6 +55,17 @@
     "active": true
   },
   {
+    "id": "admin-panel",
+    "title": "Panel de administración con Next.js, TypeScript y Auth0",
+    "desc": "Este repositorio contiene el código fuente para un panel de administración desarrollado con React, Next.js, Vercel, Tailwind CSS, TypeScript, Auth0 y componentes de UI como Preline y React Icons.",
+    "photo": "./images/panel-admin.jpg",
+    "url": "https://panel-admin-next-typescript-auth0.vercel.app/",
+    "repo": "https://github.com/creativoma/panel-admin-next-typescript-auth0",
+    "design": "",
+    "inProgress": false,
+    "active": true
+  },
+  {
     "id": "frontend-practice-ableton",
     "title": "Challenge by Frontend Practice",
     "desc": "Taking frontend skills to the next level by recreating real websites of real companies. The perfect kind of practice for developers of all levels and of course I'm up for the challenge.",
