@@ -114,8 +114,8 @@
     "title": "Porfolio personal v1",
     "desc": "Landing page desarrollada con Astro, Tailwind y Javascript.",
     "photo": "./images/portfolio.jpg",
-    "url": "https://landing-with-astro.vercel.app/",
-    "repo": "https://github.com/creativoma/landing-with-astro",
+    "url": "https://mariano-alvarez-portfolio-v1-0.vercel.app/",
+    "repo": "https://github.com/creativoma/mariano-alvarez-portfolio-v1.0",
     "design": "",
     "inProgress": false,
     "active": true
