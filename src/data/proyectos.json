@@ -1,7 +1,7 @@
 [
   {
     "id": "developer-mariano-alvarez",
-    "title": "Segunda versión de mi portfolio",
+    "title": "Mariano Álvarez Portfolio v2.0",
     "desc": "Sitio web está siendo desarrollado con Next.js, Sass, Css Modules, Markdown, Framer Motion y Figma",
     "photo": "./images/developer.jpg",
     "url": "",
@@ -111,7 +111,7 @@
   },
   {
     "id": "LandingPage",
-    "title": "Porfolio personal v1",
+    "title": "Mariano Álvarez Portfolio v1.0",
     "desc": "Landing page desarrollada con Astro, Tailwind y Javascript.",
     "photo": "./images/portfolio.jpg",
     "url": "https://mariano-alvarez-portfolio-v1-0.vercel.app/",
