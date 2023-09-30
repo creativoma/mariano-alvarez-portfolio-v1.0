@@ -45,7 +45,7 @@ const experiencia = [
   <ul class="grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
     {
       experiencia.map(({ title, description, agency, time }) => (
-        <li class="flex flex-col items-center justify-center gap-2 border border-default bg-offset p-6">
+        <li class="flex flex-col items-center justify-between gap-2 border border-default bg-offset p-6">
           <p class="text-center font-extrabold text-xl">{title}</p>
           <p class="text-l text-center font-bold text-blue-500">{agency}</p>
           <p class="text-center font-bold text-offset text-xs">{time}</p>

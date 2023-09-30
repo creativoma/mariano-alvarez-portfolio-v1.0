@@ -22,7 +22,7 @@ import Proyectos from "~/data/proyectos.json";
   <div class="flex flex-col items-center gap-2">
     <div class="grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
       {
-        Proyectos.map((proyecto: any) => (
+        Proyectos.map((proyecto) => (
           <Card
             key={proyecto.id}
             title={proyecto.title}
