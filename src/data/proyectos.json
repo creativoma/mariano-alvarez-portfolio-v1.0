@@ -33,25 +33,25 @@
     "active": true
   },
   {
-    "id": "hogwarts-legacy",
-    "title": "Website clon de Hogwarts Legacy",
-    "desc": "Estoy trabajando en este clon del sitio web de Hogwarts Legacy desarrollado con Astro, Tailwind y Javascript.",
-    "photo": "./images/hogwarts.jpg",
-    "url": "",
+    "id": "sky-mundo",
+    "title": "Website principal y Carta digital",
+    "desc": "Se utilizo Next.js como framework principal para este proyecto. Se implementaron las librerías de Framer Motion y Lenis. Se integro con Google Sheets API para la carta digital y el despliegue se hizo en Vercel contemplando la integración continua al repositorio de Github.",
+    "photo": "./images/sky-mundo.webp",
+    "url": "https://www.skymundo.com/",
     "repo": "",
     "design": "",
-    "inProgress": true,
+    "inProgress": false,
     "active": true
   },
   {
     "id": "b-academics",
     "title": "Refactorización del sitio web de B Academics",
-    "desc": "Se está desarrollando en Wordpress con Tema, plugins y funcionalidades personalizadas. Migración de contenido y rediseño completo.",
+    "desc": "Se utilizó Wordpress como CMS principal para este proyecto. Se desarrolló un theme personalizado, plugins y funcionalidades especificas para las necesidades del cliente. Se hizo una migración del anterior contenido.",
     "photo": "./images/b-academics.jpg",
-    "url": "",
+    "url": "https://bacademics.org/",
     "repo": "",
     "design": "",
-    "inProgress": true,
+    "inProgress": false,
     "active": true
   },
   {

@@ -8,20 +8,25 @@ const experiencia = [
       "Desarrollar y mejorar los productos digitales internos de Isabella Premium Group. Utilizar nuevas tecnologías y buenas prácticas para optimizar los procesos y crear interfaces atractivas y funcionales.",
     agency: "Isabella Premium Group",
     time: "Julio 2023 - Actualidad",
+    current: true,
+
   },
   {
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     description:
       "Me dedico al desarrollo y diseño de sitios web y aplicaciones usando tecnologías como JavaScript, PHP, SQL y herramientas tales como WordPress, Divi y Adobe Illustrator.",
     agency: "Creativoma",
     time: "Julio 2019 - Actualidad",
+    current: true,
+
   },
   {
-    title: "Frontend Developer",
+    title: "Full Stack Developer",
     description:
       "Mi trabajo se enfoca en el desarrollo y diseño de sitios web y aplicaciones, utilizando tecnologías como JavaScript, PHP, SQL, etc. Empleo herramientas como WordPress, Divi, Elementor.",
     agency: "Cronopios Comunicación",
     time: "Julio 2019 - Actualidad",
+    current: true,
   },
   {
     title: "Full Stack Developer",
@@ -29,6 +34,7 @@ const experiencia = [
       "En la agencia, he construido sitios web y aplicaciones usando tecnologías como HTML5, CSS, Sass, JavaScript, React.js, PHP, SQL, MySQL, PhpMyAdmin, Vite, Astro, Nextjs, Git, etc.",
     agency: "El Puente Publicidad",
     time: "Junio 2022 - Marzo 2023",
+    current: false,
   },
 ];
 ---
@@ -42,10 +48,10 @@ const experiencia = [
       profesionalmente.</span
     >
   </Fragment>
-  <ul class="grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+  <ul class="max-w-6xl gap-[40px] flex flex-wrap">
     {
-      experiencia.map(({ title, description, agency, time }) => (
-        <li class="flex flex-col items-center justify-between gap-2 border border-default bg-offset p-6">
+      experiencia.map(({ title, description, agency, time, current }) => (
+        <li class={`flex flex-col items-center justify-between gap-2 border border-default bg-offset p-6 w-full md:w-[calc(50%-20px)] ${current ? '' : 'opacity-50'}`}>
           <p class="text-center font-extrabold text-xl">{title}</p>
           <p class="text-l text-center font-bold text-blue-500">{agency}</p>
           <p class="text-center font-bold text-offset text-xs">{time}</p>

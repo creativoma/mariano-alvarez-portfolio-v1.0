@@ -3,5 +3,5 @@ module.exports = {
     "prettier-plugin-astro",
     "prettier-plugin-tailwindcss", // MUST come last
   ],
-  pluginSearchDirs: false,
+  pluginSearchDirs: true,
 };
